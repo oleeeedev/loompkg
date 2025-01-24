@@ -11,7 +11,7 @@ func InstallBat() {
 
 	switch runtime.GOOS {
 	case "darwin":
-
+		installBazelMac()
 	default:
 		fmt.Println("OS No Support")
 	}
